@@ -13,7 +13,6 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "baseHref": "/boutique-shop/",
             "outputPath": "dist/boutique-shop",
             "index": "src/index.html",
             "browser": "src/main.ts",
