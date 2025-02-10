@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "boutique-shop-9": {
+    "boutique-shop": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/boutique-shop-9",
+            "outputPath": "dist/boutique-shop",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "boutique-shop-9:build:production"
+              "buildTarget": "boutique-shop:build:production"
             },
             "development": {
-              "buildTarget": "boutique-shop-9:build:development"
+              "buildTarget": "boutique-shop:build:development"
             }
           },
           "defaultConfiguration": "development"
